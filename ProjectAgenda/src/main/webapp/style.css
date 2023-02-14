@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap')
+	;
+
+body {
+	font-family: 'Open Sans', sans-serif, 'Arial';
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.botao {
+	background-color: #66bbff;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius: 5px;
+	font-weight: 700;
+	cursor: pointer
+}
+
+.input_estilo {
+	width: 380px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #66bbff;
+	border-radius: 5px
+}
+
+.input_estilo_curto {
+	width: 190px;
+}
+
+#estilo_tabela {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+#estilo_tabela thead {
+	font-weight: 700;
+	background-color: #66bbff;
+	color: white;
+	font-size: 16px;
+}
+
+#estilo_tabela thead tr {
+	text-align: left;
+}
+
+#estilo_tabela thead tr td {
+	border: 1px solid rgb(127, 125, 125);
+	padding: 10px 5px;
+}
+
+#estilo_tabela tbody tr td {
+	border: 1px solid lightgray;
+	padding: 10px 10px 10px 5px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column
+}
+
+.container-flex {
+	display: flex;
+	margin: 5px;
+	padding: 10px
+}
+
+.botao_adicionar {
+	width: 110px;
+	margin-top: 3px;
+	border: none;
+	text-align: center;
+	margin: 5px
+}
+
+.botao_salvar {
+	width: 90px;
+	border: none
+}
+
+.formatar_acao {
+	color: white;
+	padding: 7px;
+	border: none;
+	border-radius: 5px;
+	font-size: 17px;
+	cursor: pointer;
+	width: 80px;
+	text-decoration: none;
+	font-weight: 700
+}
+
+.corBlue {
+	background-color: #66bbff;
+}
+
+.corRed {
+	background-color: red;
+}
+
+#estilo_campo_inalteravel {
+	width: 190px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	border-radius: 5px
+}
